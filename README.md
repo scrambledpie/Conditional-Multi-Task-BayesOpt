@@ -1,6 +1,6 @@
-## Continuous Multi-Task Bayesian Optimization with Correlation
-# Conditional-Multi-Task-BayesOpt
-Toy code for reproducing experiments from the paper:
+# Continuous Multi-Task Bayesian Optimization with Correlation
+## Conditional-Multi-Task-BayesOpt
+Toy code for reproducing the toy experiments from the paper:
 
 [Continuous Multi-Task Bayesian Optimization with Correlation](https://www.sciencedirect.com/science/article/abs/pii/S0377221718302261)
 
