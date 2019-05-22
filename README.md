@@ -13,7 +13,7 @@ install.packages("Rcpp")
 ```
 
 
-The algortihm takes a function of to inputs and finds all the optima of one input conditional on the other input. In other words, optimize every vertical slice in the picture below.
+The algortihm takes a function of two inputs and finds all the optima of one input conditional on the other input. In other words, optimize every vertical slice in the picture below, each slice is it's own Bayesian optiimzation problem, we just assume there is more than one, or even a continuum of problems.
 
 
 ```
