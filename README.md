@@ -4,7 +4,14 @@ Toy code for reproducing the toy experiments from the paper:
 
 [Continuous Multi-Task Bayesian Optimization with Correlation](https://www.sciencedirect.com/science/article/abs/pii/S0377221718302261)
 
-The code is in R and is somewhat (very) unprofessionally structured and written because we were all young once.
+The code is in R and is somewhat (very) unprofessionally structured and written because we were all young once. It is all self-contained in a single file. It requires R packages
+
+```
+install.packages("FastGP")
+install.packages("MASS")
+install.packages("Rcpp")
+```
+
 
 The algortihm takes a function of to inputs and finds all the optima of one input conditional on the other input. In other words, optimize every vertical slice in the picture below.
 
