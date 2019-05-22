@@ -1,10 +1,12 @@
 # Continuous Multi-Task Bayesian Optimization with Correlation
-## Conditional-Multi-Task-BayesOpt
+
 Toy code for reproducing the toy experiments from the paper:
 
 [Continuous Multi-Task Bayesian Optimization with Correlation](https://www.sciencedirect.com/science/article/abs/pii/S0377221718302261)
 
-The algortihm takes a function of to inputs and finds all the optima of one input conditional on the other input. In other words, optimize every vertical slice in the picture below!
+The code is in R and is somewhat (very) unprofessionally structured and written because we were all young once.
+
+The algortihm takes a function of to inputs and finds all the optima of one input conditional on the other input. In other words, optimize every vertical slice in the picture below.
 
 
 ```
