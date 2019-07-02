@@ -1,10 +1,10 @@
 # Continuous Multi-Task Bayesian Optimization with Correlation
 
-Toy code for reproducing the toy experiments from the paper:
+Toy code for reproducing the simpler experiments from the paper:
 
 [Continuous Multi-Task Bayesian Optimization with Correlation](https://www.sciencedirect.com/science/article/abs/pii/S0377221718302261)
 
-The code is in R and is somewhat (very) unprofessionally structured and written because we were all young once. It is all self-contained in a single file. It requires R packages which are installed by running these command in the R console:
+The code is in R and is all self-contained in a single file. It requires R packages which are installed by running these command in the R console:
 
 ```
 install.packages("FastGP")
